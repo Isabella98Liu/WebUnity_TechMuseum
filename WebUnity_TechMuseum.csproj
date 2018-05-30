@@ -309,6 +309,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GlobalMono.cs" />
     <Compile Include="Assets\Scripts\mouseDrag.cs" />
+    <Compile Include="Assets\Scripts\objectClicked.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CustomPacks\Blue Button\SciFi Buttons\Font\Font Readme.txt" />

@@ -27,7 +27,7 @@ public class mouseDrag : MonoBehaviour {
 	void Update () {
         Vector3 fwd = MainCamera.transform.forward;
         fwd.Normalize();
-        if (Input.GetMouseButton(0))   // if the left button of the button was pressed 
+        if (Input.GetMouseButton(0) && Global.ModelRotate)   // if the left button of the mouse was pressed and the user is clicking the model area
         {
             Vector3 vaxis = Vector3.Cross(fwd, Vector3.right);
             Vector3 haxis = Vector3.Cross(fwd, Vector3.up);
